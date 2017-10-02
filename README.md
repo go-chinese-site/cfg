@@ -1,2 +1,2 @@
 # cfg
-Go 语言通用的配置管理，支持 ini、yaml、toml、json 等
+cfg is the go language common configuration management, support ini, yaml, toml, json and so on.
