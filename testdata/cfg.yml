@@ -4,3 +4,19 @@ port: 6061
 price: 12.3
 
 isSet: true
+
+# datasource
+datasource: 
+  type: git
+  url: https://github.com/go-chinese-site/dreamgo-demo
+
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: root
+
+redis:
+  - {host: 127.0.0.1, port: 6379, password: 123456}
+  - {host: 127.0.0.1, port: 6389, password: 123456}
+  - {host: 127.0.0.1, port: 6399, password: 123456}
